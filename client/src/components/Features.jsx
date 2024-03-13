@@ -58,7 +58,7 @@ export default function Feature() {
           />
           <div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900 bg-orange-50">
             <h3 className="text-3xl font-bold">Property Upload</h3>
-            <p className="my-6 dark:text-gray-400 myFont">
+            <p className="my-6 text-gray-600 myFont">
               Embark on the journey of showcasing your properties effortlessly.
               Our platform allows you to upload property details with ease,
               providing potential buyers with comprehensive insights into what
@@ -70,13 +70,13 @@ export default function Feature() {
               target="_blank"
               rel="noreferrer"
             >
-              <span className="mr-2 myFont">See more</span>
+              <span className="mr-2 myFont text-gray-600">See more</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                className="w-8 h-10"
+                className="w-8 h-10 text-gray-600"
               >
                 <path
                   strokeLinecap="round"

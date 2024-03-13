@@ -4,23 +4,23 @@ import Avatar2 from "../assets/images/isoken1.jpeg";
 
 export default function Team() {
   return (
-    <section className="py-6 dark:bg-gray-800 dark:text-gray-100 bg-orange-50">
+    <section className="py-6  bg-orange-50">
       <div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10 mt-10">
         <h1 className="text-4xl font-bold leading-none text-center sm:text-5xl">
           Meet the team
         </h1>
         <div className="flex flex-row flex-wrap-reverse justify-center mt-20">
-          <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800">
+          <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 ">
             <img
               alt=""
-              className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full dark:bg-gray-500 hover:scale-105"
+              className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full  hover:scale-105"
               src={Avatar2}
             />
             <div className="flex-1 my-4">
               <p className="text-xl font-semibold leading-snug">
                 Isoken Ibizugbe
               </p>
-              <p className="myFont">Software Engineer</p>
+              <p className="myFont text-gray-600">Software Engineer</p>
             </div>
             <div className="flex items-center justify-center p-3 space-x-3 border-t-2 border-yellow-950">
               <a
@@ -28,7 +28,7 @@ export default function Team() {
                 href="mailto:
 isokenjune@gmail.com"
                 title="Email"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="hover:underline text-gray-600"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ isokenjune@gmail.com"
                 rel="noopener noreferrer"
                 href="http://linkedin.com/in/isokenibizugbe"
                 title="LinkedIn"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="hover:underline text-gray-600"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ isokenjune@gmail.com"
                 rel="noopener noreferrer"
                 href="https://github.com/Junie06"
                 title="GitHub"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="hover:underline text-gray-600"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -73,24 +73,24 @@ isokenjune@gmail.com"
               </a>
             </div>
           </div>
-          <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800">
+          <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 ">
             <img
               alt=""
-              className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center rounded-full dark:bg-gray-500 hover:scale-105"
+              className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center rounded-full  hover:scale-105"
               src={Avatar1}
             />
             <div className="flex-1 my-4">
               <p className="text-xl font-semibold leading-snug">
                 Kadiri Adeyinka
               </p>
-              <p className="myFont">Software Engineer</p>
+              <p className="myFont text-gray-600">Software Engineer</p>
             </div>
             <div className="flex items-center justify-center p-3 space-x-3 border-t-2 border-yellow-950">
               <a
                 rel="noopener noreferrer"
                 href="mailto:kadiriadeyinka09@gmail.com"
                 title="Email"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="hover:underline text-gray-600"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,7 @@ isokenjune@gmail.com"
                 rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/kadiri-adeyinka-maranatha/"
                 title="LinkedIn"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="hover:underline text-gray-600"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +122,7 @@ isokenjune@gmail.com"
                 rel="noopener noreferrer"
                 href="https://github.com/Yinka09/ALX-Research-Project"
                 title="GitHub"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="hover:underline text-gray-600"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

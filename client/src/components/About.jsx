@@ -2,8 +2,8 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="wave dark:text-gray-100 bg-orange-50 mt-0 ">
-      <h2 className="mb-12 pt-20 text-4xl font-bold leading-none text-center sm:text-5xl">
+    <section className="wave text-gray-600 bg-orange-50 mt-0 ">
+      <h2 className="mb-12 pt-20 text-4xl text-black font-bold leading-none text-center sm:text-5xl">
         About RealtyHub
       </h2>
       <div className="text-justify px-12 myFont">

@@ -15,7 +15,7 @@ body {
 }
 
 .home {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../src/assets/images/image8.jpg") no-repeat center center fixed;
   background-size: cover;
 }

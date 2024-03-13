@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
   return (
-    <header className=" z-10 sticky top-0 self-start py-4 dark:bg-gray-800 dark:text-gray-100 bg-yellow-950 text-white">
+    <header className=" z-10 sticky top-0 self-start py-4   bg-yellow-950 text-white">
       <div className="container flex justify-between  mx-auto">
         <Link to="/" rel="noopener noreferrer" className="flex items-center">
-          <button className="self-center px-4 sm:px-0 py-3 font-semibold dark:bg-violet-400 dark:text-gray-900 border-b-2 border-yellow-950 hover:border-white">
-            RealtyHub
+          <button className="self-center px-4 sm:px-0 py-3 font-semibold  border-b-2 border-yellow-950 hover:border-white">
+            Realty<span className="text-black">Hub</span>
           </button>
         </Link>
 

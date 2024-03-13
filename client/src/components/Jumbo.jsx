@@ -33,15 +33,18 @@ export default function Jumbo() {
 
   return (
     <section>
-      <div className="dark:bg-violet-400  home text-white">
+      <div className="dark:bg-violet-400 home text-white min-h-screen flex items-center">
         <div className="container flex flex-col items-center px-4 py-20 pb-24 mx-auto text-center lg:pb-56 md:py-24 md:px-10 lg:px-32 dark:text-gray-900">
-          <h1 className=" text-5xl font-bold leading-none sm:text-8xl xl:max-w-3xl dark:text-gray-900">
+          <h1 className=" text-7xl font-bold leading-none sm:text-8xl xl:max-w-3xl dark:text-gray-900">
             RealtyHub
           </h1>
           <p className="myFont mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900">
             Experience Excellence, Discover Realty, Elevate Real Estate
-            Experiences. Where Each Residence is a Testament to Craftsmanship
-            <span>and Personalized Comfort.</span>
+            Experiences.{" "}
+            <span className="hidden md:flex">
+              Where Each Residence is a Testament to Craftsmanship and
+              Personalized Comfort.
+            </span>
           </p>
           <div className="flex flex-wrap justify-center">
             <a
@@ -51,7 +54,7 @@ export default function Jumbo() {
             >
               <button
                 type="button"
-                className="px-8 py-3 m-2 text-lg rounded dark:border-gray-700 dark:text-gray-900 bg-yellow-950 text-white hover:opacity-75"
+                className="px-8 py-3 m-2 text-lg rounded shadow-lg bg-yellow-950 text-white hover:opacity-75"
               >
                 Get Started
               </button>
