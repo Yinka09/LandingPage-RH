@@ -1,11 +1,18 @@
 {
   "name": "landingpage-rh",
   "version": "1.0.0",
-  "description": "This is landing page for RealtyHub, built wite React, Vite, Tailwind.",
-  "main": "index.js",
+  "description": "This is landing page for RealtyHub, built with React, Vite, and Tailwind.",
   "scripts": {
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kadiri Adeyinka",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "vite": "^2.0.0"
+  }
 }
