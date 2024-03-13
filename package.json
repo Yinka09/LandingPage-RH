@@ -4,6 +4,7 @@
   "description": "This is landing page for RealtyHub, built wite React, Vite, Tailwind.",
   "main": "index.js",
   "scripts": {
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kadiri Adeyinka",
