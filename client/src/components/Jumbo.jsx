@@ -4,7 +4,7 @@ import Team from "./Team";
 import About from "./About";
 import Feature from "./Features";
 import Form from "./Form";
-import backgroundImage from "../assets/images/image8.jpg";
+import backgroundImage from "../assets/images/resize8.jpg";
 
 export default function Jumbo() {
   useEffect(() => {
