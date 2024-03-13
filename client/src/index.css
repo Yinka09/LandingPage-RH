@@ -14,16 +14,16 @@ body {
   width: 700px;
 }
 
-/* .home {
+.home {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../src/assets/images/image8.jpg") no-repeat center center fixed;
   background-size: cover;
-} */
-.home {
+}
+/* .home {
   background: url("../src/assets/images/image8.jpg") no-repeat center center
     fixed;
   background-size: cover;
-}
+} */
 
 .myborder {
   border-top-left-radius: 50px;

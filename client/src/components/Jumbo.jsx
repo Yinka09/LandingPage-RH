@@ -4,6 +4,7 @@ import Team from "./Team";
 import About from "./About";
 import Feature from "./Features";
 import Form from "./Form";
+import backgroundImage from "../assets/images/image8.jpg";
 
 export default function Jumbo() {
   useEffect(() => {
@@ -33,7 +34,16 @@ export default function Jumbo() {
 
   return (
     <section>
-      <div className="dark:bg-violet-400 home text-white min-h-screen flex items-center">
+      <div
+        className="  text-white min-h-screen flex items-center "
+        style={{
+          background:
+            "linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" +
+            backgroundImage +
+            ") no-repeat center center fixed",
+          backgroundSize: "cover",
+        }}
+      >
         <div className="container flex flex-col items-center px-4 py-20 pb-24 mx-auto text-center lg:pb-56 md:py-24 md:px-10 lg:px-32 dark:text-gray-900">
           <h1 className=" text-7xl font-bold leading-none sm:text-8xl xl:max-w-3xl dark:text-gray-900">
             RealtyHub
